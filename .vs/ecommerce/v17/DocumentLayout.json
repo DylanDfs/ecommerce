@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9843234B-F243-4594-A0B7-A629FB4E16F2}|API\\API.csproj|c:\\users\\dyl\\source\\repos\\ecommerce\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9843234B-F243-4594-A0B7-A629FB4E16F2}|API\\API.csproj|solutionrelative:api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038CCFA2-A9A4-453F-A5A4-FA7D59D32AA8}|Infrastructure\\Infrastructure.csproj|c:\\users\\dyl\\source\\repos\\ecommerce\\infrastructure\\data\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038CCFA2-A9A4-453F-A5A4-FA7D59D32AA8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038CCFA2-A9A4-453F-A5A4-FA7D59D32AA8}|Infrastructure\\Infrastructure.csproj|c:\\users\\dyl\\source\\repos\\ecommerce\\infrastructure\\data\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038CCFA2-A9A4-453F-A5A4-FA7D59D32AA8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9843234B-F243-4594-A0B7-A629FB4E16F2}|API\\API.csproj|c:\\users\\dyl\\source\\repos\\ecommerce\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9843234B-F243-4594-A0B7-A629FB4E16F2}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790800DC-2230-4744-97AD-D831B16CABE7}|Core\\Core.csproj|c:\\users\\dyl\\source\\repos\\ecommerce\\core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790800DC-2230-4744-97AD-D831B16CABE7}|Core\\Core.csproj|solutionrelative:core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790800DC-2230-4744-97AD-D831B16CABE7}|Core\\Core.csproj|c:\\users\\dyl\\source\\repos\\ecommerce\\core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790800DC-2230-4744-97AD-D831B16CABE7}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "API\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAqwC8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T14:42:10.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\Infrastructure\\Data\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\Infrastructure\\Data\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\GenericRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T14:25:41.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T14:23:02.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\Infrastructure\\Data\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\Infrastructure\\Data\\ProductRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ProductRepository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T12:33:59.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\Core\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\Core\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T12:32:49.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Users\\Dyl\\source\\repos\\ecommerce\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBQAAAAXAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvw0AAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T15:41:31.819Z",
+              "WhenOpened": "2024-05-31T11:16:55.818Z",
               "EditorCaption": ""
             }
           ]
