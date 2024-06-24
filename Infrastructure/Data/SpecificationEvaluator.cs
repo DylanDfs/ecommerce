@@ -1,7 +1,6 @@
 ﻿using Core.Entities;
 using Core.Specifications;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query;
 
 namespace Infrastructure.Data
 {
