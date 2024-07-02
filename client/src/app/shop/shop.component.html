@@ -2,14 +2,14 @@
     <div class="row">
 
         <section class="col-3">
-            <h5 class="text-warning ml-3">Sort</h5>
+            <h5 class="text-warning ms-3">Sort</h5>
             <select class="custom-select mb-3" (change)="onSortSelected($event)">
                 <option *ngFor="let sort of sortOptions" [value]="sort.value">
                     {{sort.name}}
                 </option>
             </select>
 
-            <h5 class="text-warning ml-3">Brands</h5>
+            <h5 class="text-warning ms-3">Brands</h5>
             <ul class="list-group my-3">
                 <li class="list-group-item" aria-current="true" 
                     *ngFor="let brand of brands"
@@ -19,7 +19,7 @@
                     {{  brand.name }}
                 </li>
             </ul>
-            <h5 class="text-warning ml-3">Types</h5>
+            <h5 class="text-warning ms-3">Types</h5>
             <ul class="list-group my-3">
                 <li class="list-group-item" aria-current="true" 
                     *ngFor="let type of types"
@@ -58,10 +58,10 @@
                 </header>
 
                 <div class="form-inline mt-2">
-                    <input (keyup.enter)="onSearch()" class="form-control mr-2" #search style="width: 300px;" placeholder="Search"
+                    <input (keyup.enter)="onSearch()" class="form-control me-2" #search style="width: 300px;" placeholder="Search"
                         type="text">
                     <button (click)="onSearch()" class="btn btn-outline-primary my-2">Search</button>
-                    <button (click)="onReset()" class="btn btn-outline-success ml-2 my-2">Reset</button>
+                    <button (click)="onReset()" class="btn btn-outline-success ms-2 my-2">Reset</button>
                 </div>
             </div>
 
