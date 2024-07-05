@@ -12,9 +12,10 @@ p-3 mb-3 px-md-4 border-bottom shadow-sm bg-white fixed-top">
         routerLinkActive="active">Errors</a>
     </nav>
     <div class="d-flex align-items-center">
-        <a class="position-relative">
+        <a routerLink="/basket" class="position-relative">
             <i class="fa fa-shopping-cart fa-2x me-5 text-dark"></i>
-            <div class="cart-no">5</div>
+            <!-- <div *ngIf="(basket$ | async) as basket" class="cart-no">{{basket.items.length}}</div> -->
+            <div class="cart-no">0</div>
         </a>
         <a class="btn btn-outline-secondary me-2" href="#">Login</a>
         <a class="btn btn-outline-secondary me-3" href="#">Sign up</a>
