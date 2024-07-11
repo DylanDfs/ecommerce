@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -36,6 +36,7 @@ import { LoadingInterceptor } from './core/interceptors/loading.interceptor';
       {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
       {provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true},
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
